@@ -5,17 +5,17 @@
     .search{
         display: flex;
         align-items: center;
-        gap: 20px;
-        padding: 10px;
+        gap: 10px;
+        padding: 5px;
 
         .searchBar{
             flex: 1;
             background-color: rgba(17, 16, 24, 0.413);
             align-items:center;
             display:flex;
-            gap: 20px;
+            gap: 10px;
             border-radius: 10px;
-            padding: 10px;
+            padding: 8px;
 
             input{
                 background-color: transparent;
@@ -26,14 +26,14 @@
             }
             
             img{
-                width: 20px;
-                height: 20px;
+                width: 15px;
+                height: 15px;
             }
         }
 
         .add{
-            width: 36px;
-            height: 36px;
+            width: 30px;
+            height: 30px;
             background-color: rgba(17, 16, 24, 0.413);
             padding: 10px;
             border-radius: 10px;
@@ -44,7 +44,7 @@
     .item{
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         padding: 10px;
         cursor: pointer;
         border-bottom: 1px solid #dddddd35;
@@ -66,8 +66,8 @@
             }
 
             p{
-                font-size: 14px;
-                font-weight: 300;
+                font-size: 12px;
+                font-weight: 200;
             }
         }
     }

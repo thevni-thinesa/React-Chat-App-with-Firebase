@@ -1,3 +1,103 @@
 .detail{
     flex: 1;
+
+    .user{
+        padding: 10px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        border-bottom: 1px solid #dddddd35;
+
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .info{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+
+        .option{
+
+            .title{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgba(17, 25, 40, 0.3);
+                    padding: 9.5px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+
+                span{
+                    font-size: 14.5px;
+                    font-weight: 300;
+                }
+            }
+
+            .photos{
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+                margin-top: 10px;
+
+                .photoItem{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .photoDetail{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 10px;
+                            object-fit: cover;
+                        }
+
+                        span{
+                            font-size: 13px;
+                            color: lightgray;
+                            font-weight: 300;
+                        }
+                    }
+
+                    .icon{
+                        width: 20px;
+                        height: 20px;
+                        background-color: rgba(17, 25, 40, 0.3);
+                        gap: 5px;
+                        border-radius: 20%;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        button{
+            padding: 8px 10px;
+            background-color: rgba(230, 74, 105, 0.553);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(220, 20, 60, 0.831);
+            }
+        }
+    }
 }
