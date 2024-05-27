@@ -6,7 +6,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 7px;
+        gap: 5px;
         border-bottom: 1px solid #dddddd35;
 
         img{
@@ -15,13 +15,17 @@
             border-radius: 50%;
             object-fit: cover;
         }
+
+        p{
+            font-size: 13.5px;
+        }
     }
 
     .info{
         padding: 10px;
         display: flex;
         flex-direction: column;
-        gap: 7px;
+        gap: 8px;
 
         .option{
 
@@ -88,7 +92,7 @@
         }
 
         button{
-            padding: 8px 10px;
+            padding: 6px 10px;
             background-color: rgba(230, 74, 105, 0.553);
             color: white;
             border: none;
@@ -97,6 +101,11 @@
 
             &:hover{
                 background-color: rgba(220, 20, 60, 0.831);
+            }
+
+            &.logout{
+                padding: 6px;
+                background-color: #1a73e8;
             }
         }
     }

@@ -13,15 +13,15 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .container{
-  width: 92vw;
+  width: 90vw;
   height: 95vh;
-  background-color:rgba(2, 2, 10, 0.598);
-  backdrop-filter: blur(19px) saturate(180%);
+  background-color:rgba(2, 2, 23, 0.374);
+  backdrop-filter: blur(2px) saturate(  80%);
   border-radius: 20px;
-  border: 1.5px solid rgba(255, 255, 255, 0.797);
+  border: 1.5px solid rgba(255, 255, 255, 0.589);
   display: flex;
 }
