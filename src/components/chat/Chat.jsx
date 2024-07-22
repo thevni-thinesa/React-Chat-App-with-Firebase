@@ -27,12 +27,14 @@ const Chat = () => {
               <p>hi saveen ,how are you.....</p>
             </div>
           </div>
+            
           <div className="icons">
             <img src="./phone.png" alt="" />
             <img src="./video.png" alt="" />
             <img src="./info.png" alt="" />
           </div>
         </div>
+          
         <div className="center">
           <div className="message own">
             <div className="texts">
@@ -40,6 +42,7 @@ const Chat = () => {
               <span>1 min ago</span>
             </div>
           </div>
+            
           <div className="message">
             <img src="./avatar.png" alt="" />
             <div className="texts">
@@ -47,12 +50,14 @@ const Chat = () => {
               <span>1 min ago</span>
             </div> 
           </div>
+            
           <div className="message own">
             <div className="texts">
               <p>hello mr saveen how are you.....</p>
               <span>1 min ago</span>
             </div>
           </div>
+            
           <div className="message">
             <img src="./avatar.png" alt="" />
             <div className="texts">
@@ -60,6 +65,7 @@ const Chat = () => {
               <span>1 min ago</span>
             </div>
           </div>
+            
           <div className="message own">
             <div className="texts">
               <img src="./bg.jpg" alt="" />
@@ -67,14 +73,17 @@ const Chat = () => {
               <span>1 min ago</span>
             </div>
           </div>
+            
           <div ref={endRef}></div>
         </div>
+          
         <div className="bottom">
           <div className="icons">
             <img src="./img.png" alt="" />
             <img src="./camera.png" alt="" />
             <img src="./mic.png" alt="" />
           </div>
+            
           <input 
             type="text" 
             placeholder="Type a message..." 
