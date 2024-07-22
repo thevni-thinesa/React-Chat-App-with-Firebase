@@ -25,3 +25,10 @@ body{
   border: 1.5px solid rgba(255, 255, 255, 0.589);
   display: flex;
 }
+
+.loading{
+  padding: 25px 60px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: rgba(17, 25, 40, 0.9);
+}
